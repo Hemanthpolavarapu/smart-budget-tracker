@@ -1,0 +1,15 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+  }
+  
+  .app-header {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+  }

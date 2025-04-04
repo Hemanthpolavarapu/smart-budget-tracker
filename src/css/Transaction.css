@@ -1,0 +1,42 @@
+.transaction-container {
+    background-color: white;
+    color: #0d1d2c;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 22px;
+    font-size: 18px;
+    width: 100%;
+    gap: 10px;
+    font-weight: bold;
+    overflow-y: auto !important;
+  }
+  
+  .transaction-container input {
+    padding: 10px 12px;
+    border-radius: 12px;
+    background: #e6e8e9;
+    border: 1px solid #e6e8e9;
+    outline: none;
+  }
+  
+  .transaction-cell {
+    background-color: white;
+    color: #0d1d2c;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid #e6e8e9;
+    align-items: center;
+    font-weight: normal;
+    justify-content: space-between;
+  }
+  
+  .expense-cell {
+    border-right: 4px solid red;
+  }
+  
+  .income-cell {
+    border-right: 4px solid green;
+  }
